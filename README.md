@@ -13,8 +13,8 @@ Shadow don't support Minecraft Bedrock current
 7. Get a command block
 8. Paste the command you got in mcutil website
 9. Add a button to the command block
-10. Click the command block
-11. And Watch what happens to the Server 
+10. Click the button that you place on the command block
+11. And Watch the server go down :]
    
 
 
