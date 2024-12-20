@@ -1,5 +1,6 @@
 ![Shadow](https://github.com/user-attachments/assets/10b4a36b-c08f-44d7-be3d-665fbbab7d8e)
 Welcome to Shadow A Nbt Crasher **Command** Both Players And The Whole Server for minecraft java 1.21+ 
+Shadow don't support Minecraft Bedrock current 
 
 
 **How To Use**
