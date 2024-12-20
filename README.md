@@ -24,7 +24,7 @@ Use a command block and paste the command
 
 It may not work because some plugin stop Shadow from nuking/crashing the server!
 
-Shadow Is a Beta Verison It may not work on another verisons of minecraft due to tested on 1.21+
+Shadow Is a Beta Version It may not work on another verisons of minecraft due to tested on 1.21+
 
 You can modify Shadow commands as you like 
 
